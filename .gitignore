@@ -1,3 +1,6 @@
+target
+serve
+dist
 # Logs
 logs
 *.log
