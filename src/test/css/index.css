@@ -47,9 +47,21 @@ body {
   counter-reset: test-counter;
 }
 
-.Site {
-  @apply(--u-background-color-sf-soft-white);
+/** Header component overrides */
+:root {
+  --Header-padding-bottom: 3rem;
+
+  --Header_link-padding-left: 5rem;
+  --Header_link-padding-right: 5rem;
+  --Header_link-padding-top: 0.5rem;
+  --Header_link-padding-bottom: 0.5rem;
+  --Header_link-border-radius: 4px;
+  --Header_link-border-color: gray;
+
+  --Header_link_onHover-text-color: var(--color-tomato-red);
+
 }
+
 
 .TestHeader {
   @apply(--u-background-color-444);
