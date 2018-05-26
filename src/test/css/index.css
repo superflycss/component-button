@@ -15,6 +15,10 @@
 @import "@superflycss/utilities-colors/superfly/";
 @import "@superflycss/utilities-colors/three/";
 
+.Button.onActivate {
+  filter: invert(100);
+}
+
 .Button--bam {
   background: lighten(var(--color-tomato-red), 3%);
   border: 1px solid darken(var(--color-tomato-red), 4%);
