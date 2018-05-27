@@ -12,9 +12,9 @@
 
 <body>
   <header class="Header--column u-text-color-777">
-    <h1 class="Display--fs400fw700">Component Test</h1>
+    <h1 class="Display--fs400fw700">Button Test</h1>
     <a class="Header_link u-text-color-777 u-border-color-777" 
-       href="https://github.com/superflycss/component-test/">Github</a>
+       href="https://github.com/superflycss/component-button/">Github</a>
   </header>
 
   <!-- START TEST 1-->
@@ -530,7 +530,7 @@
             <div class="TestWhen "></div>
             <div class="TestDescription">
                 A buttons <code>onActivate</code> class is added 
-                with to the button elements classlist via javascript.
+                to the button elements classlist via javascript.
             </div>
         
             <pre class="TestMarkup ">
@@ -549,6 +549,23 @@
                u-letter-spacing-1x
                u-font-size-500">Activate!
 </button>
+
+<script>
+  function activate() {
+    let button = document.getElementById('activate');
+    button.isActive = false;
+    if (!button.classList.contains('onActivate')) {
+      button.classList.add('onActivate');
+    }
+    else {
+      button.classList.remove('onActivate');
+    }
+  }
+  </script>
+
+
+
+
             </code>
            </pre>
            </div>
@@ -564,24 +581,6 @@
           </div>
         </div>
         <!--END TEST OUTPUT-->
-
-        <script>
-        function activate() {
-          let button = document.getElementById('activate');
-          button.isActive = false;
-          if (!button.classList.contains('onActivate')) {
-            button.classList.add('onActivate');
-          }
-          else {
-            button.classList.remove('onActivate');
-          }
-        }
-        </script>
-
-
-
-
-
 </body>
 
 </html>
