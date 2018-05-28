@@ -14,4 +14,4 @@ See [Usage](https://github.com/superflycss/superflycss/#usage)
 
 ## Tests
 
-[Superfly CSS Header Component Tests](https://superflycss.github.io/component-button/target/test/html/)
+[Superfly CSS Button Component Tests](https://superflycss.github.io/component-button/target/test/html/)
