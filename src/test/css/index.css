@@ -88,12 +88,6 @@ body {
   @apply(--u-text-color-tomato);
 }
 
-.TestContainer {
-    @apply(--u-background-color-sf-silver-grey);
-    @apply(--u-padding-bottom-2rem);
-    @apply(--u-padding-left-2rem);
-}
-
 .TestCounter {
   @apply(--u-text-color-tomato);
 }
