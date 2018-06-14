@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-button",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Button component",
   "main": "index.css",
   "scripts": {
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/superflycss/component-button/issues"
   },
-  "homepage": "https://github.com/superflycss/button-header#readme",
+  "homepage": "https://github.com/superflycss/component-button#readme",
   "devDependencies": {
     "@superflycss/component-body": "^1.0.1",
     "@superflycss/component-display": "^1.0.2",
