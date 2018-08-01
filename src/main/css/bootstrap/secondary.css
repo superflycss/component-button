@@ -30,6 +30,7 @@
 .bs-Button--secondary:active {
   @apply(--Button-ui-states);
   @apply(--u-background-color-secondary-700);
+  @apply(--u-border-color-secondary-100);
 }
 
 .bs-Button--secondary:disabled,

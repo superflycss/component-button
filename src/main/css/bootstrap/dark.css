@@ -30,6 +30,7 @@
 .bs-Button--dark:active {
   @apply(--Button-ui-states);
   @apply(--u-background-color-dark-700);
+  @apply(--u-border-color-dark-100);
 }
 
 .bs-Button--dark:disabled,

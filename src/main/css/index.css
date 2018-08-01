@@ -24,6 +24,7 @@
     box-sizing: border-box; /* NBS */
     user-select: none; /* US */
     letter-spacing: normal;
+    line-height: 1.5;
     word-spacing: normal;
     text-indent: 0px;
     align-items: center;

@@ -30,6 +30,7 @@
 .bs-Button--warning:active {
   @apply(--Button-ui-states);
   @apply(--u-background-color-warning-700);
+  @apply(--u-border-color-warning-100);
 }
 
 .bs-Button--warning:disabled,

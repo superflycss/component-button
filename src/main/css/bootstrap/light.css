@@ -31,6 +31,7 @@
 .bs-Button--light:active {
   @apply(--Button-ui-states);
   @apply(--u-background-color-light-700);
+  @apply(--u-border-color-light-100);
 }
 
 .bs-Button--light:disabled,

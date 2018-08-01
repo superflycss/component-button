@@ -30,6 +30,7 @@
 .bs-Button--primary:active {
   @apply(--Button-ui-states);
   @apply(--u-background-color-primary-700);
+  @apply(--u-border-color-primary-100);
 }
 
 .bs-Button--primary:disabled,

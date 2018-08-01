@@ -30,6 +30,7 @@
 .bs-Button--danger:active {
   @apply(--Button-ui-states);
   @apply(--u-background-color-danger-700);
+  @apply(--u-border-color-danger-100);
 }
 
 .bs-Button--danger:disabled,

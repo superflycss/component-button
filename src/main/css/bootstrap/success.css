@@ -30,6 +30,7 @@
 .bs-Button--success:active {
   @apply(--Button-ui-states);
   @apply(--u-background-color-success-700);
+  @apply(--u-border-color-success-100);
 }
 
 .bs-Button--success:disabled,
