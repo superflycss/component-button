@@ -1,0 +1,38 @@
+/** @define component  */
+
+/*! | superflycss/component-button |
+    | MIT License                |
+    | https://github.com/superflycss/component-button/blob/master/LICENSE.md */
+
+:root {
+  --bs-Button-fixed-base {
+    white-space: nowrap;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+}
+
+/** CONFIGURABLE DESIGN FEATURES
+  * TC. Inherit text color from ancestor.
+  * FS. Inherit font styles from ancestor.
+  */
+
+  :root {
+    --bs-Button-padding: 0.375rem 0.75rem;
+    --bs-Button-border-width: 1px;
+    --bs-Button-border-color: transparent;
+    --bs-Button-border-radius: 0.25rem;
+    --bs-Button-font-weight: 400;
+    --bs-Button-text-color: inherit;
+    --bs-Button-font: inherit;
+    --bs-Button-configurable-base {
+      padding: var(--bs-Button-padding);
+      border-width: var(--bs-Button-border-width);
+      border-color: var(--bs-Button-border-color);
+      border-radius: var(--bs-Button-border-radius);
+      font-weight: var(--bs-Button-font-weight);
+      color: var(--bs-Button-text-color); /* TC */
+      font: var(--bs-Button-font); /* FS */
+    }
+  }
+  

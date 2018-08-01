@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-button",
-  "version": "2.0.3",
+  "version": "2.0.5",
   "description": "Button component",
   "main": "index.css",
   "scripts": {
@@ -25,7 +25,7 @@
   "devDependencies": {
     "@superflycss/component-body": "^1.0.1",
     "@superflycss/component-display": "^1.0.2",
-    "@superflycss/component-test": "^3.3.1",
+    "@superflycss/component-test": "^3.6.3",
     "@superflycss/component-header": "^2.1.0",
     "@superflycss/foundation": "^2.0.3",
     "@superflycss/utilities-colors": "3.0.6",
@@ -33,11 +33,11 @@
     "@superflycss/utilities-fonts": "^3.4.0",
     "@superflycss/utilities-format": "^1.1.1",
     "@superflycss/utilities-icons": "^2.0.1",
-    "@superflycss/utilities-layout": "^4.0.2",
+    "@superflycss/utilities-layout": "^4.0.3",
     "npm-check-updates": "^2.14.2"
   },
   "dependencies": {
-    "@superflycss/variables-colors": "^3.0.4",
+    "@superflycss/variables-colors": "^3.1.4",
     "@superflycss/variables-dimension": "^2.0.0"
   }
 }
