@@ -24,6 +24,8 @@
 
 /**
   * Button UI states
+  * 
+  * C: Color stays white when class is applied to link (a) elements.
   */
 .bs-Button--danger:hover,
 .bs-Button--danger:focus,
@@ -31,6 +33,7 @@
   @apply(--Button-ui-states);
   @apply(--u-background-color-danger-700);
   @apply(--u-border-color-danger-100);
+  color: #ffffff !important; /* C */
 }
 
 .bs-Button--danger:disabled,

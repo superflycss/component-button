@@ -19,21 +19,24 @@
   * Remove excess padding and border in Firefox 4+
   */
 .bs-Button--dark::-moz-focus-inner {
-  @apply(--Button-moz-fix);
+  @apply (--Button-moz-fix);
 }
 
 /**
   * Button UI states
+  * 
+  * C: Color stays white when class is applied to link (a) elements.
   */
 .bs-Button--dark:hover,
 .bs-Button--dark:focus,
 .bs-Button--dark:active {
-  @apply(--Button-ui-states);
-  @apply(--u-background-color-dark-700);
-  @apply(--u-border-color-dark-100);
+  @apply (--Button-ui-states);
+  @apply (--u-background-color-dark-700);
+  @apply (--u-border-color-dark-100);
+  color: #ffffff !important; /* C */
 }
 
 .bs-Button--dark:disabled,
 .bs-Button--dark.onDisabled {
-  @apply(--Button_onDisabled);
+  @apply (--Button_onDisabled);
 }

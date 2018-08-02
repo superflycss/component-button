@@ -8,33 +8,30 @@
 @import "./common";
 @import "@superflycss/variables-colors";
 
-.bs-Button--secondary {
+.bs-Button--link {
   @apply (--Button-fixed-base);
   @apply (--bs-Button-configurable-base);
-  color: #ffffff;
-  background-color: var(--color-secondary);
+  color: var(--color-link);
 }
 
 /**
   * Remove excess padding and border in Firefox 4+
   */
-.bs-Button--secondary::-moz-focus-inner {
+.bs-Button--link::-moz-focus-inner {
   @apply(--Button-moz-fix);
 }
 
 /**
   * Button UI states
   */
-.bs-Button--secondary:hover,
-.bs-Button--secondary:focus,
-.bs-Button--secondary:active {
+.bs-Button--link:hover,
+.bs-Button--link:focus,
+.bs-Button--link:active {
   @apply(--Button-ui-states);
-  @apply(--u-background-color-secondary-700);
-  @apply(--u-border-color-secondary-100);
-  color: #ffffff !important; /* C */
+  @apply(--u-text-color-link-900);
 }
 
-.bs-Button--secondary:disabled,
-.bs-Button--secondary.onDisabled {
+.bs-Button--link:disabled,
+.bs-Button--link.onDisabled {
   @apply(--Button_onDisabled);
 }

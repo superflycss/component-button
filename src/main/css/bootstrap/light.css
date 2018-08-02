@@ -25,6 +25,8 @@
 
 /**
   * Button UI states
+  * 
+  * C: Color stays the same when class is applied to link (a) elements.
   */
 .bs-Button--light:hover,
 .bs-Button--light:focus,
@@ -32,6 +34,7 @@
   @apply(--Button-ui-states);
   @apply(--u-background-color-light-700);
   @apply(--u-border-color-light-100);
+  color: #212529; /* C */
 }
 
 .bs-Button--light:disabled,

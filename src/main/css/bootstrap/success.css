@@ -24,6 +24,8 @@
 
 /**
   * Button UI states
+  * 
+  * C: Color stays white when class is applied to link (a) elements.
   */
 .bs-Button--success:hover,
 .bs-Button--success:focus,
@@ -31,6 +33,7 @@
   @apply(--Button-ui-states);
   @apply(--u-background-color-success-700);
   @apply(--u-border-color-success-100);
+  color: #ffffff !important; /* C */
 }
 
 .bs-Button--success:disabled,
