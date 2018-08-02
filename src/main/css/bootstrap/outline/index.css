@@ -1,4 +1,3 @@
-@import "./outline/index";
 @import "./light";
 @import "./dark";
 @import "./primary";
@@ -7,4 +6,3 @@
 @import "./danger";
 @import "./info";
 @import "./success";
-@import "./link";

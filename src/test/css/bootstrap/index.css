@@ -13,6 +13,7 @@
 @import "@superflycss/utilities-format";
 @import "@superflycss/utilities-colors/browser/";
 @import "@superflycss/utilities-colors/superfly/";
+@import "@superflycss/utilities-colors/material/";
 @import "@superflycss/utilities-colors/three/";
 
 :root {

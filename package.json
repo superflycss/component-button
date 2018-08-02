@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-button",
-  "version": "2.0.5",
+  "version": "2.0.7",
   "description": "Button component",
   "main": "index.css",
   "scripts": {
@@ -37,7 +37,7 @@
     "npm-check-updates": "^2.14.2"
   },
   "dependencies": {
-    "@superflycss/variables-colors": "^3.1.5",
+    "@superflycss/variables-colors": "^3.1.6",
     "@superflycss/variables-dimension": "^2.0.0"
   }
 }

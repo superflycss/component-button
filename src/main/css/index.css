@@ -17,6 +17,8 @@
    *      applied to.
    * US.  Prevent button text from being selectable.
    */
+@import "./utilities";
+
 :root {
   --Button-fixed-base {
     display: inline-flex; /* IF */
