@@ -4,7 +4,7 @@
   "description": "Button component",
   "main": "index.css",
   "scripts": {
-    "update": "ncu -a && npm i"
+    "update": "ncu -a && npm i",
   },
   "repository": {
     "type": "git",
