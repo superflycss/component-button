@@ -1,8 +1,1 @@
-@import "./light";
-@import "./dark";
-@import "./primary";
-@import "./secondary";
-@import "./warning";
-@import "./danger";
-@import "./info";
-@import "./success";
+@import "./buttons";

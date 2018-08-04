@@ -10,36 +10,12 @@
    * forms, as calls to action, or as part of the
    * general UI of the site/app.
    *
-   * FIXED DESIGN FEATURES
-   * IF.  Inline flex used for button layout
-   * ON.  No outline by default in order to provide full control over styling.
-   * NBS. Normalize `box-sizing` across all elements that this component could be
-   *      applied to.
-   * US.  Prevent button text from being selectable.
    */
-@import "./utilities";
 
-:root {
-  --Button-fixed-base {
-    display: inline-flex; /* IF */
-    outline: none; /* ON */
-    box-sizing: border-box; /* NBS */
-    user-select: none; /* US */
-    letter-spacing: normal;
-    line-height: 1.5;
-    word-spacing: normal;
-    text-indent: 0px;
-    align-items: center;
-    justify-content: space-around;
-    background: transparent;
-    border-style: solid;
-    margin: 0;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
-  }
-}
+@import "./utilities";
+@import "./common";
+@import "./bootstrap/";
+@import "./bootstrap/outline";
 
 /**
    * The button classes are best applied to links
@@ -76,47 +52,14 @@
   @apply (--Button-configurable-base);
 }
 
-/**
-  * Remove excess padding and border in Firefox 4+
-  */
-:root {
-  --Button-moz-fix {
-    border: 0;
-    padding: 0;
-  }
-}
-
 .Button::-moz-focus-inner {
   @apply (--Button-moz-fix);
-}
-
-/**
-  * Button UI states
-  */
-:root {
-  --Button-ui-states {
-    text-decoration: none;
-    outline: none;
-    border-style: solid;
-  }
 }
 
 .Button:hover,
 .Button:focus,
 .Button:active {
   @apply(--Button-ui-states);
-}
-
-/**
-  * PED. Turn off pointer events when button is disabled.
-  */
-:root {
-  --Button_onDisabled-opacity: 0.6;
-  --Button_onDisabled {
-    cursor: default;
-    pointer-events: none; /* PED */
-    opacity: var(--Button_onDisabled-opacity);    
-  }
 }
 
 .Button:disabled,

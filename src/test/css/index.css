@@ -14,6 +14,7 @@
 @import "@superflycss/utilities-colors/browser/";
 @import "@superflycss/utilities-colors/superfly/";
 @import "@superflycss/utilities-colors/three/";
+@import "@superflycss/utilities-colors/material/";
 
 .Button.onActivate {
   filter: invert(100);

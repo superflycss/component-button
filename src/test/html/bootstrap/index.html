@@ -6,7 +6,7 @@
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <title>Test @superflycss/component-button</title>
-  <link href="../../css/bootstrap/index.css" rel="stylesheet">
+  <link href="../../css/index.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 
@@ -17,10 +17,12 @@
   </header>
 
   <!-- START TEST -->
+  {% for brand in ['primary', 'secondary', 'success', 'info', 'warning', 'danger', 'dark', 'light', 'link', 'primary-outline',
+  'secondary-outline', 'success-outline', 'info-outline', 'warning-outline', 'danger-outline', 'dark-outline'] %}
 
   <div class="TestHeader">
     <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--primary</span>
+    <span class="TestComponent">bs-Button--{{brand}}</span>
   </div>
 
   <div class="TestContainer">
@@ -28,13 +30,13 @@
       <div class="TestWhen "></div>
       <div class="TestDescription ">
         <div class="Test_description">The
-          <code>bs-Button-primary</code> class is applied.</div>
+          <code>bs-Button-{{brand}}</code> class is applied.</div>
       </div>
 
 
       <pre class="TestMarkup">
         <code class="html ">
-<button class="bs-Button--primary">bs-Button--primary</button>
+<button class="bs-Button--{{brand}}">bs-Button--{{brand}}</button>
         </code>
     </pre>
     </div>
@@ -43,16 +45,17 @@
       <div class="TestThen "></div>
       <div class="TestDescription">
         The
-        <code>bs-Button-primary</code> class is rendered.</div>
+        <code>bs-Button-{{brand}} </code> class is rendered.</div>
     </div>
   </div>
+  {% endfor %}
   <!--END TEST OUTPUT-->
 
   <!-- START TEST -->
 
   <div class="TestHeader">
     <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--info</span>
+    <span class="TestComponent">bs-Button--light-outline</span>
   </div>
 
   <div class="TestContainer">
@@ -60,250 +63,25 @@
       <div class="TestWhen "></div>
       <div class="TestDescription ">
         <div class="Test_description">The
-          <code>bs-Button-info</code> class is applied.</div>
+          <code>bs-Button--light-outline</code> class is applied.</div>
       </div>
-
-
       <pre class="TestMarkup">
-          <code class="html ">
-  <button class="bs-Button--info">bs-Button--info</button>
-          </code>
-      </pre>
+                    <code class="html">
+  <div class="TestCanvas
+              u-flex 
+              u-flex-row
+              u-background-color-md-deep-purple-900">
+  <button class="bs-Button--light-outline">bs-Button--light-outline</button>
+  </div>
+                    </code>
+                </pre>
     </div>
     <!--END TEST INPUT-->
     <div class="TestOutput">
       <div class="TestThen "></div>
       <div class="TestDescription">
         The
-        <code>bs-Button-info</code> class is rendered.</div>
-    </div>
-  </div>
-  <!--END TEST OUTPUT-->
-
-
-  <!-- START TEST -->
-
-  <div class="TestHeader">
-    <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--secondary</span>
-  </div>
-
-  <div class="TestContainer">
-    <div class="TestInput">
-      <div class="TestWhen "></div>
-      <div class="TestDescription ">
-        <div class="Test_description">The
-          <code>bs-Button-secondary</code> class is applied.</div>
-      </div>
-
-
-      <pre class="TestMarkup ">
-        <code class="html ">
-<button class="bs-Button--secondary">bs-Button--secondary</button>
-        </code>
-    </pre>
-    </div>
-    <!--END TEST INPUT-->
-    <div class="TestOutput">
-      <div class="TestThen "></div>
-      <div class="TestDescription">
-        The
-        <code>bs-Button-secondary</code> class is rendered.</div>
-    </div>
-  </div>
-  <!--END TEST OUTPUT-->
-
-
-
-  <!-- START TEST 4-->
-
-  <div class="TestHeader">
-    <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--success</span>
-  </div>
-
-  <div class="TestContainer">
-    <div class="TestInput">
-      <div class="TestWhen "></div>
-      <div class="TestDescription ">
-        <div class="Test_description">The
-          <code>bs-Button-success</code> class is applied.</div>
-      </div>
-
-
-      <pre class="TestMarkup ">
-        <code class="html ">
-<button class="bs-Button--success">bs-Button--success</button>
-        </code>
-    </pre>
-    </div>
-    <!--END TEST INPUT-->
-    <div class="TestOutput">
-      <div class="TestThen "></div>
-      <div class="TestDescription">
-        The
-        <code>bs-Button-success</code> class is rendered.</div>
-    </div>
-  </div>
-  <!--END TEST OUTPUT-->
-
-  <!-- START TEST-->
-
-  <div class="TestHeader">
-    <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--danger</span>
-  </div>
-
-  <div class="TestContainer">
-    <div class="TestInput">
-      <div class="TestWhen "></div>
-      <div class="TestDescription ">
-        <div class="Test_description">The
-          <code>bs-Button-danger</code> class is applied.</div>
-      </div>
-
-
-      <pre class="TestMarkup ">
-          <code class="html ">
-<button class="bs-Button--danger">bs-Button--danger</button>
-          </code>
-      </pre>
-    </div>
-    <!--END TEST INPUT-->
-    <div class="TestOutput">
-      <div class="TestThen "></div>
-      <div class="TestDescription">
-        The
-        <code>bs-Button-danger</code> class is rendered.</div>
-    </div>
-  </div>
-  <!--END TEST OUTPUT-->
-
-  <!-- START TEST-->
-
-  <div class="TestHeader">
-    <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--warning</span>
-  </div>
-
-  <div class="TestContainer">
-    <div class="TestInput">
-      <div class="TestWhen "></div>
-      <div class="TestDescription ">
-        <div class="Test_description">The
-          <code>bs-Button-warning</code> class is applied.</div>
-      </div>
-
-
-      <pre class="TestMarkup ">
-              <code class="html ">
-    <button class="bs-Button--warning">bs-Button--warning</button>
-              </code>
-          </pre>
-    </div>
-    <!--END TEST INPUT-->
-    <div class="TestOutput">
-      <div class="TestThen "></div>
-      <div class="TestDescription">
-        The
-        <code>bs-Button-warning</code> class is rendered.</div>
-    </div>
-  </div>
-  <!--END TEST OUTPUT-->
-
-  <!-- START TEST-->
-
-  <div class="TestHeader">
-    <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--light</span>
-  </div>
-
-  <div class="TestContainer">
-    <div class="TestInput">
-      <div class="TestWhen "></div>
-      <div class="TestDescription ">
-        <div class="Test_description">The
-          <code>bs-Button-light</code> class is applied.</div>
-      </div>
-
-
-      <pre class="TestMarkup ">
-        <code class="html ">
-<button class="bs-Button--light">bs-Button--light</button>
-        </code>
-    </pre>
-    </div>
-    <!--END TEST INPUT-->
-    <div class="TestOutput">
-      <div class="TestThen "></div>
-      <div class="TestDescription">
-        The
-        <code>bs-Button-light</code> class is rendered.</div>
-    </div>
-  </div>
-  <!--END TEST OUTPUT-->
-
-
-  <!-- START TEST-->
-
-  <div class="TestHeader">
-    <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--dark</span>
-  </div>
-
-  <div class="TestContainer">
-    <div class="TestInput">
-      <div class="TestWhen "></div>
-      <div class="TestDescription ">
-        <div class="Test_description">The
-          <code>bs-Button-dark</code> class is applied.</div>
-      </div>
-
-
-      <pre class="TestMarkup ">
-          <code class="html ">
-<button class="bs-Button--dark">bs-Button--dark</button>
-          </code>
-      </pre>
-    </div>
-    <!--END TEST INPUT-->
-    <div class="TestOutput">
-      <div class="TestThen "></div>
-      <div class="TestDescription">
-        The
-        <code>bs-Button-dark</code> class is rendered.</div>
-    </div>
-  </div>
-  <!--END TEST OUTPUT-->
-
-  <!-- START TEST-->
-
-  <div class="TestHeader">
-    <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--link</span>
-  </div>
-
-  <div class="TestContainer">
-    <div class="TestInput">
-      <div class="TestWhen "></div>
-      <div class="TestDescription ">
-        <div class="Test_description">The
-          <code>bs-Button-link</code> class is applied.</div>
-      </div>
-
-
-      <pre class="TestMarkup ">
-              <code class="html ">
-<button class="bs-Button--link">bs-Button--link</button>
-              </code>
-          </pre>
-    </div>
-    <!--END TEST INPUT-->
-    <div class="TestOutput">
-      <div class="TestThen "></div>
-      <div class="TestDescription">
-        The
-        <code>bs-Button-link</code> class is rendered.</div>
+        <code>bs-Button--light-outline</code> class is rendered.</div>
     </div>
   </div>
   <!--END TEST OUTPUT-->
@@ -407,10 +185,9 @@
   <!--END TEST OUTPUT-->
 
   <!-- START TEST -->
-
   <div class="TestHeader">
     <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--primary-outline</span>
+    <span class="TestUtilities">u-button-lg</span>
   </div>
 
   <div class="TestContainer">
@@ -418,250 +195,23 @@
       <div class="TestWhen "></div>
       <div class="TestDescription ">
         <div class="Test_description">The
-          <code>bs-Button--primary-outline</code> class is applied.</div>
-      </div>
-
-
-      <pre class="TestMarkup">
-                <code class="html ">
-<button class="bs-Button--primary-outline">bs-Button--primary-outline</button>
-                </code>
-            </pre>
-    </div>
-    <!--END TEST INPUT-->
-    <div class="TestOutput">
-      <div class="TestThen "></div>
-      <div class="TestDescription">
-        The
-        <code>bs-Button--primary-outline</code> class is rendered.</div>
-    </div>
-  </div>
-  <!--END TEST OUTPUT-->
-
-
-  <!-- START TEST -->
-
-  <div class="TestHeader">
-    <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--secondary-outline</span>
-  </div>
-
-  <div class="TestContainer">
-    <div class="TestInput">
-      <div class="TestWhen "></div>
-      <div class="TestDescription ">
-        <div class="Test_description">The
-          <code>bs-Button--secondary-outline</code> class is applied.</div>
-      </div>
-
-
-      <pre class="TestMarkup">
-                <code class="html ">
-<button class="bs-Button--secondary-outline">bs-Button--secondary-outline</button>
-                </code>
-            </pre>
-    </div>
-    <!--END TEST INPUT-->
-    <div class="TestOutput">
-      <div class="TestThen "></div>
-      <div class="TestDescription">
-        The
-        <code>bs-Button--secondary-outline</code> class is rendered.</div>
-    </div>
-  </div>
-  <!--END TEST OUTPUT-->
-
-  <!-- START TEST -->
-
-  <div class="TestHeader">
-      <span class="TestCounter"></span>
-      <span class="TestComponent">bs-Button--success-outline</span>
-    </div>
-  
-    <div class="TestContainer">
-      <div class="TestInput">
-        <div class="TestWhen "></div>
-        <div class="TestDescription ">
-          <div class="Test_description">The
-            <code>bs-Button--success-outline</code> class is applied.</div>
-        </div>
-  
-  
-        <pre class="TestMarkup">
-                  <code class="html ">
-  <button class="bs-Button--success-outline">bs-Button--success-outline</button>
-                  </code>
-              </pre>
-      </div>
-      <!--END TEST INPUT-->
-      <div class="TestOutput">
-        <div class="TestThen "></div>
-        <div class="TestDescription">
-          The
-          <code>bs-Button--success-outline</code> class is rendered.</div>
-      </div>
-    </div>
-    <!--END TEST OUTPUT-->
-  
-  <!-- START TEST -->
-
-  <div class="TestHeader">
-      <span class="TestCounter"></span>
-      <span class="TestComponent">bs-Button--warning-outline</span>
-    </div>
-  
-    <div class="TestContainer">
-      <div class="TestInput">
-        <div class="TestWhen "></div>
-        <div class="TestDescription ">
-          <div class="Test_description">The
-            <code>bs-Button--warning-outline</code> class is applied.</div>
-        </div>
-  
-  
-        <pre class="TestMarkup">
-              <code class="html ">
-  <button class="bs-Button--warning-outline">bs-Button--warning-outline</button>
-              </code>
-          </pre>
-      </div>
-      <!--END TEST INPUT-->
-      <div class="TestOutput">
-        <div class="TestThen "></div>
-        <div class="TestDescription">
-          The
-          <code>bs-Button--warning-outline</code> class is rendered.</div>
-      </div>
-    </div>
-    <!--END TEST OUTPUT-->  
-
-  <!-- START TEST -->
-
-  <div class="TestHeader">
-    <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--danger-outline</span>
-  </div>
-
-  <div class="TestContainer">
-    <div class="TestInput">
-      <div class="TestWhen "></div>
-      <div class="TestDescription ">
-        <div class="Test_description">The
-          <code>bs-Button--danger-outline</code> class is applied.</div>
-      </div>
-
-
-      <pre class="TestMarkup">
-            <code class="html ">
-<button class="bs-Button--danger-outline">bs-Button--danger-outline</button>
-            </code>
-        </pre>
-    </div>
-    <!--END TEST INPUT-->
-    <div class="TestOutput">
-      <div class="TestThen "></div>
-      <div class="TestDescription">
-        The
-        <code>bs-Button--danger-outline</code> class is rendered.</div>
-    </div>
-  </div>
-  <!--END TEST OUTPUT-->
-
-  <!-- START TEST -->
-
-  <div class="TestHeader">
-    <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--dark-outline</span>
-  </div>
-
-  <div class="TestContainer">
-    <div class="TestInput">
-      <div class="TestWhen "></div>
-      <div class="TestDescription ">
-        <div class="Test_description">The
-          <code>bs-Button--dark-outline</code> class is applied.</div>
-      </div>
-
-
-      <pre class="TestMarkup">
-                <code class="html ">
-<button class="bs-Button--dark-outline">bs-Button--dark-outline</button>
-                </code>
-            </pre>
-    </div>
-    <!--END TEST INPUT-->
-    <div class="TestOutput">
-      <div class="TestThen "></div>
-      <div class="TestDescription">
-        The
-        <code>bs-Button--dark-info</code> class is rendered.</div>
-    </div>
-  </div>
-  <!--END TEST OUTPUT-->
-
-  <!-- START TEST -->
-
-  <div class="TestHeader">
-    <span class="TestCounter"></span>
-    <span class="TestComponent">bs-Button--light-outline</span>
-  </div>
-
-  <div class="TestContainer">
-    <div class="TestInput">
-      <div class="TestWhen "></div>
-      <div class="TestDescription ">
-        <div class="Test_description">The
-          <code>bs-Button--light-outline</code> class is applied.</div>
+          <code>u-button-block</code> class is applied.</div>
       </div>
       <pre class="TestMarkup">
-                  <code class="html">
-<div class="TestCanvas
-            u-flex 
-            u-flex-row
-            u-background-color-md-deep-purple-900">
-<button class="bs-Button--light-outline">bs-Button--light-outline</button>
-</div>
-                  </code>
-              </pre>
-    </div>
-    <!--END TEST INPUT-->
-    <div class="TestOutput">
-      <div class="TestThen "></div>
-      <div class="TestDescription">
-        The
-        <code>bs-Button--light-outline</code> class is rendered.</div>
-    </div>
-  </div>
-  <!--END TEST OUTPUT-->
-
-  <!-- START TEST -->
-    <div class="TestHeader">
-      <span class="TestCounter"></span>
-      <span class="TestUtilities">u-button-lg</span>
-    </div>
-  
-    <div class="TestContainer">
-      <div class="TestInput">
-        <div class="TestWhen "></div>
-        <div class="TestDescription ">
-          <div class="Test_description">The
-            <code>u-button-block</code> class is applied.</div>
-        </div>
-        <pre class="TestMarkup">
                     <code class="html">
 <button class="bs-Button--primary u-button-lg">LARGE BUTTON</button>
                     </code>
                 </pre>
-      </div>
-      <!--END TEST INPUT-->
-      <div class="TestOutput">
-        <div class="TestThen "></div>
-        <div class="TestDescription">
-          The
-          <code>u-button-lg</code> class is rendered.</div>
-      </div>
     </div>
-    <!--END TEST OUTPUT-->
+    <!--END TEST INPUT-->
+    <div class="TestOutput">
+      <div class="TestThen "></div>
+      <div class="TestDescription">
+        The
+        <code>u-button-lg</code> class is rendered.</div>
+    </div>
+  </div>
+  <!--END TEST OUTPUT-->
 
   <!-- START TEST -->
   <div class="TestHeader">
@@ -721,10 +271,43 @@
   </div>
   <!--END TEST OUTPUT-->
 
+  <!-- START TEST -->
+  <div class="TestHeader">
+    <span class="TestCounter"></span>
+    <span class="TestUtilities">u-button-block</span>
+  </div>
+
+  <div class="TestContainer">
+    <div class="TestInput">
+      <div class="TestWhen "></div>
+      <div class="TestDescription ">
+        <div class="Test_description">The
+          <code>u-button-block</code> class is combined with the
+          <code>disabled</code> attribute or the
+          <code>onDisabled</code> class.
+        </div>
+      </div>
+      <pre class="TestMarkup">
+                    <code class="html">
+<button class="bs-Button--primary u-button-block" disabled>block button</button>
+<br/>
+<a class="bs-Button--primary u-button-block onDisabled">block button</a>
+                    </code>
+                </pre>
+    </div>
+    <!--END TEST INPUT-->
+    <div class="TestOutput">
+      <div class="TestThen "></div>
+      <div class="TestDescription">
+        The button is disabled.</div>
+    </div>
+  </div>
+  <!--END TEST OUTPUT-->
+
     <!-- START TEST -->
     <div class="TestHeader">
       <span class="TestCounter"></span>
-      <span class="TestUtilities">u-button-block</span>
+      <span class="TestUtilities">u-button-group</span>
     </div>
   
     <div class="TestContainer">
@@ -732,23 +315,23 @@
         <div class="TestWhen "></div>
         <div class="TestDescription ">
           <div class="Test_description">The
-            <code>u-button-block</code> class is combined 
-            with the <code>disabled</code> attribute or the <code>onDisabled</code> class.
-          </div>
+            <code>u-button-group</code> class is applied.</div>
         </div>
         <pre class="TestMarkup">
                     <code class="html">
-<button class="bs-Button--primary u-button-block" disabled>block button</button>
-<br/>
-<a class="bs-Button--primary u-button-block onDisabled">block button</a>
+<div class="u-button-group">
+<button class="bs-Button--primary">block button</button>
+<button class="bs-Button--primary">block button</button>
+</div>
                     </code>
-                </pre>
+        </pre>
       </div>
       <!--END TEST INPUT-->
       <div class="TestOutput">
         <div class="TestThen "></div>
         <div class="TestDescription">
-          The button is disabled.</div>
+          The
+          <code>u-button-group</code> class is rendered.</div>
       </div>
     </div>
     <!--END TEST OUTPUT-->

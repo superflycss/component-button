@@ -16,3 +16,18 @@
     display: block !important;
     width: 100% !important;
 }
+
+.u-button-group {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.u-button-group:first-child {
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.u-button-group:last-child {
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
