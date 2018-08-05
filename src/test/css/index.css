@@ -1,0 +1,114 @@
+@import "@superflycss/foundation";
+@import "../../main/css/index.css";
+@import "@superflycss/utilities-fonts/";
+@import "@superflycss/utilities-fonts/open-sans/";
+@import "@superflycss/utilities-fonts/baloo-bhaina/";
+@import "@superflycss/utilities-icons";
+@import "@superflycss/utilities-layout";
+@import "@superflycss/component-body";
+@import "@superflycss/component-display";
+@import "@superflycss/component-header";
+@import "@superflycss/component-test";
+@import "@superflycss/utilities-effects";
+@import "@superflycss/utilities-format";
+@import "@superflycss/utilities-colors/browser/";
+@import "@superflycss/utilities-colors/superfly/";
+@import "@superflycss/utilities-colors/three/";
+@import "@superflycss/utilities-colors/material/";
+
+.Button.onActivate {
+  filter: invert(100);
+}
+
+.Button--bam {
+  background: lighten(var(--color-tomato-red), 3%);
+  border: 1px solid darken(var(--color-tomato-red), 4%);
+  box-shadow: 0px 2px 0 darken(black, 15%), 11px 11px 0px darken(white, 74%);
+  font-weight: 900;
+  transition: all 200ms linear;
+}
+
+.Button--bam:hover {
+  background: darken(var(--color-tomato-red), 3%);
+  border: 1px solid rgba(#000, .05);
+  box-shadow: 1px 1px 2px rgba(#fff, .3);
+  color: lighten(var(--color-tomato-red), 18%);
+  text-shadow: -1px -1px 0 darken(var(--color-tomato-red), 9.5%);
+  text-decoration: none;
+  transition: all 200ms linear;
+}
+
+.Button--bam:active {
+  transition: all 150ms ease;
+}
+
+
+:root {
+  --color-tomato-red: #E1332D;
+  --color-tomato-red-l30: lighten(var(--color-tomato-red), 30%);
+}
+
+body {
+  counter-reset: test-counter;
+}
+
+/** Header component overrides */
+:root {
+  --Header-padding-bottom: 3rem;
+
+  --Header_link-padding-left: 5rem;
+  --Header_link-padding-right: 5rem;
+  --Header_link-padding-top: 0.5rem;
+  --Header_link-padding-bottom: 0.5rem;
+  --Header_link-border-radius: 4px;
+  --Header_link-border-color: gray;
+
+  --Header_link_onHover-text-color: var(--color-tomato-red);
+
+}
+
+
+.TestHeader {
+  @apply(--u-background-color-444);
+}
+
+
+.TestWhen {
+  @apply(--u-text-color-444);
+}
+
+.TestThen {
+  @apply(--u-text-color-444);
+}
+
+.TestDescription {
+  @apply(--u-text-color-444);
+}
+
+.TestMarkup {
+  @apply(--u-text-color-tomato);
+}
+
+.TestCounter {
+  @apply(--u-text-color-tomato);
+}
+
+
+.Button--wut {
+  border-radius: 4px;
+  border: 1px solid #333;
+  font-size: 1.5em;
+  color: #fff;
+  font-family: Helvetica;
+  background-color: tomato;
+  background-image: linear-gradient(tomato 0%, white 500%);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 1px 3px rgba(0, 0, 0, .2);
+  border: 1px solid #d7c6b3;
+}
+
+.Button--wut:active, .Button--wut:focus, .Button--wut:hover {
+    background-color: #e0811b;
+    background-image: linear-gradient(white 10%, tomato 200%);
+    color: grey;
+}

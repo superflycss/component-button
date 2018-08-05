@@ -1,0 +1,68 @@
+/** @define component  */
+
+/*! | superflycss/component-button |
+    | MIT License                |
+    | https://github.com/superflycss/component-button/blob/master/LICENSE.md */
+
+/**
+   * The button classes are best applied to links
+   * and buttons.  These components can be used in  
+   * forms, as calls to action, or as part of the
+   * general UI of the site/app.
+   *
+   */
+
+@import "./utilities";
+@import "./common";
+@import "./bootstrap/";
+@import "./bootstrap/outline";
+
+/**
+   * The button classes are best applied to links
+   * and buttons.  These components can be used in  
+   * forms, as calls to action, or as part of the
+   * general UI of the site/app.
+   *
+   * CONFIGURABLE DESIGN FEATURES
+   * TC. Inherit text color from ancestor.
+   * FS. Inherit font styles from ancestor.
+   */
+
+:root {
+  --Button-padding: 0.4rem 0.75rem;
+  --Button-border-width: 1px;
+  --Button-border-color: transparent;
+  --Button-border-radius: 0rem;
+  --Button-font-weight: 400;
+  --Button-text-color: inherit;
+  --Button-font: inherit;
+  --Button-configurable-base {
+    padding: var(--Button-padding);
+    border-width: var(--Button-border-width);
+    border-color: var(--Button-border-color);
+    border-radius: var(--Button-border-radius);
+    font-weight: var(--Button-font-weight);
+    color: var(--Button-text-color); /* TC */
+    font: var(--Button-font); /* FS */
+  }
+}
+
+.Button {
+  @apply (--Button-fixed-base);
+  @apply (--Button-configurable-base);
+}
+
+.Button::-moz-focus-inner {
+  @apply (--Button-moz-fix);
+}
+
+.Button:hover,
+.Button:focus,
+.Button:active {
+  @apply(--Button-ui-states);
+}
+
+.Button:disabled,
+.Button.onDisabled {
+  @apply(--Button_onDisabled);
+}

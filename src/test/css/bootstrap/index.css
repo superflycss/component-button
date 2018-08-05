@@ -1,0 +1,67 @@
+@import "@superflycss/foundation";
+@import "../../../main/css/bootstrap/";
+@import "@superflycss/utilities-fonts/";
+@import "@superflycss/utilities-fonts/open-sans/";
+@import "@superflycss/utilities-fonts/baloo-bhaina/";
+@import "@superflycss/utilities-icons";
+@import "@superflycss/utilities-layout";
+@import "@superflycss/component-body";
+@import "@superflycss/component-display";
+@import "@superflycss/component-header";
+@import "@superflycss/component-test";
+@import "@superflycss/utilities-effects";
+@import "@superflycss/utilities-format";
+@import "@superflycss/utilities-colors/browser/";
+@import "@superflycss/utilities-colors/superfly/";
+@import "@superflycss/utilities-colors/material/";
+@import "@superflycss/utilities-colors/three/";
+
+:root {
+  --color-tomato-red: #E1332D;
+  --color-tomato-red-l30: lighten(var(--color-tomato-red), 30%);
+}
+
+body {
+  counter-reset: test-counter;
+}
+
+/** Header component overrides */
+:root {
+  --Header-padding-bottom: 3rem;
+
+  --Header_link-padding-left: 5rem;
+  --Header_link-padding-right: 5rem;
+  --Header_link-padding-top: 0.5rem;
+  --Header_link-padding-bottom: 0.5rem;
+  --Header_link-border-radius: 4px;
+  --Header_link-border-color: gray;
+
+  --Header_link_onHover-text-color: var(--color-tomato-red);
+}
+
+
+.TestHeader {
+  @apply(--u-background-color-444);
+}
+
+
+.TestWhen {
+  @apply(--u-text-color-444);
+}
+
+.TestThen {
+  @apply(--u-text-color-444);
+}
+
+.TestDescription {
+  @apply(--u-text-color-444);
+}
+
+.TestMarkup {
+  @apply(--u-text-color-tomato);
+}
+
+.TestCounter {
+  @apply(--u-text-color-tomato);
+}
+

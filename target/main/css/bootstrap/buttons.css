@@ -1,0 +1,1139 @@
+/** @define component  */
+
+/*! | superflycss/component-button |
+    | MIT License                |
+    | https://github.com/superflycss/component-button/blob/master/LICENSE.md */
+
+/** @define component  */
+
+/*! | superflycss/component-button |
+    | MIT License                |
+    | https://github.com/superflycss/component-button/blob/master/LICENSE.md */
+
+/**
+ * FIXED DESIGN FEATURES
+ * IF.  Inline flex used for button layout
+ * ON.  No outline by default in order to provide full control over styling.
+ * NBS. Normalize `box-sizing` across all elements that this component could be
+ *      applied to.
+ * US.  Prevent button text from being selectable.
+ */
+
+/**
+  * Remove excess padding and border in Firefox 4+
+  */
+
+/**
+  * Button UI states
+  */
+
+/**
+  * PED. Turn off pointer events when button is disabled.
+  */
+
+/** @define component  */
+
+/*! | superflycss/component-button |
+    | MIT License                |
+    | https://github.com/superflycss/component-button/blob/master/LICENSE.md */
+
+/** CONFIGURABLE DESIGN FEATURES
+  * TC. Inherit text color from ancestor.
+  * FS. Inherit font styles from ancestor.
+  */
+
+/*!
+ * Copyright 2016 Firefly Semantics Corporation
+ * Copyright 2016 Ole Ersoy
+ * Copyright 2016 superflycss
+ * Copyright 2011 Twitter, Inc.
+ */
+
+/*! superflycss/variables-colors | MIT License | https://github.com/superflycss/variables-colors/blob/master/LICENSE.md */
+
+/*! bootstrap v4.0.0-alpha | MIT License | https://github.com/twbs/bootstrap/blob/master/LICENSE */
+
+/* =======================================
+   --------------------------------------
+   -- Naming Conventions --
+   --------------------------------------
+   All shared color variables are prefixed with
+   `color-`.
+   All percentages are prefixed with
+   `percentage-`.
+   --------------------------------------
+    -- Weighted Color Naming System --
+   --------------------------------------
+   The spectrum of colors for grays use the
+   symbolic number weights
+   [100, 300, 400, 500, 600, 700, 900].
+
+   The notification colors use the symbolic weights
+   [100, 300, 500, 700, 900].
+   ======================================= */
+
+/* =======================================
+MATERIAL DESIGN COLORS VARIABLES
+======================================= */
+
+/*! Copyright 2015 Google Inc */
+
+/** https://material.io/guidelines/style/color.html */
+
+/* =======================================
+PERCENTAGES USED IN COLOR CALCULATIONS
+======================================= */
+
+/* =======================================
+   PERCENTAGES USED IN COLOR CALCULATIONS
+   ======================================= */
+
+/* =======================================
+NOTIFICATION COLORS
+======================================= */
+
+/* =======================================
+   NOTIFICATION COLORS
+
+   ABBREVIATIONS
+   tc:  text-color
+   bdc: border-color
+   bgc: background-color
+   ======================================= */
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+:root {  
+    }
+
+/* =======================================
+BROWSER SUPPORTED COLOR NAMES
+======================================= */
+
+/* =======================================
+BROWSER SUPPORTED COLOR NAMES
+======================================= */
+
+/* =======================================
+THREE DIGIT COLOR CODES
+======================================= */
+
+/* =======================================
+THREE DIGIT COLOR CODES
+======================================= */
+
+/* =======================================
+SUPERFLYCSS COLORS
+======================================= */
+
+/* =======================================
+   SUPERFLYCSS COLORS
+   ======================================= */
+
+/* 1 */
+
+/* 2 */
+
+/**
+ * Inherit the ancestor's text color.
+ */
+
+.bs-Button--primary {
+  display: inline-flex; /* IF */
+  outline: none; /* ON */
+  box-sizing: border-box; /* NBS */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; /* US */
+  letter-spacing: normal;
+  line-height: 1.5;
+  word-spacing: normal;
+  text-indent: 0px;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  border-style: solid;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 0.375rem 0.75rem;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  color: inherit; /* TC */
+  font: inherit; /* FS */
+  color: #fff;
+  background-color: #007bff;
+  }
+
+/**
+    * Remove excess padding and border in Firefox 4+
+    */
+
+.bs-Button--primary::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  }
+
+/**
+    * Button UI states
+    * 
+    * C: Color stays white when class is applied to link (a) elements
+    *    overriding the link elements styling.
+    */
+
+.bs-Button--primary:hover {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(0, 98, 204);
+    color: #ffffff !important; /* C */
+  }
+
+.bs-Button--primary:focus,
+  .bs-Button--primary:active {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(0, 74, 153);
+    box-shadow: 0 0 0 0.2rem rgb(102, 176, 255);
+  }
+
+.bs-Button--primary:disabled,
+  .bs-Button--primary.onDisabled {
+  cursor: default;
+  pointer-events: none; /* PED */
+  opacity: 0.6;
+  }
+
+.bs-Button--secondary {
+  display: inline-flex; /* IF */
+  outline: none; /* ON */
+  box-sizing: border-box; /* NBS */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; /* US */
+  letter-spacing: normal;
+  line-height: 1.5;
+  word-spacing: normal;
+  text-indent: 0px;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  border-style: solid;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 0.375rem 0.75rem;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  color: inherit; /* TC */
+  font: inherit; /* FS */
+  color: #fff;
+  background-color: #6c757d;
+  }
+
+/**
+    * Remove excess padding and border in Firefox 4+
+    */
+
+.bs-Button--secondary::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  }
+
+/**
+    * Button UI states
+    * 
+    * C: Color stays white when class is applied to link (a) elements
+    *    overriding the link elements styling.
+    */
+
+.bs-Button--secondary:hover {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(86, 94, 100);
+    color: #ffffff !important; /* C */
+  }
+
+.bs-Button--secondary:focus,
+  .bs-Button--secondary:active {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(65, 70, 75);
+    box-shadow: 0 0 0 0.2rem rgb(167, 172, 177);
+  }
+
+.bs-Button--secondary:disabled,
+  .bs-Button--secondary.onDisabled {
+  cursor: default;
+  pointer-events: none; /* PED */
+  opacity: 0.6;
+  }
+
+.bs-Button--success {
+  display: inline-flex; /* IF */
+  outline: none; /* ON */
+  box-sizing: border-box; /* NBS */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; /* US */
+  letter-spacing: normal;
+  line-height: 1.5;
+  word-spacing: normal;
+  text-indent: 0px;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  border-style: solid;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 0.375rem 0.75rem;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  color: inherit; /* TC */
+  font: inherit; /* FS */
+  color: #fff;
+  background-color: #5cb85c;
+  }
+
+/**
+    * Remove excess padding and border in Firefox 4+
+    */
+
+.bs-Button--success::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  }
+
+/**
+    * Button UI states
+    * 
+    * C: Color stays white when class is applied to link (a) elements
+    *    overriding the link elements styling.
+    */
+
+.bs-Button--success:hover {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(74, 147, 74);
+    color: #ffffff !important; /* C */
+  }
+
+.bs-Button--success:focus,
+  .bs-Button--success:active {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(55, 110, 55);
+    box-shadow: 0 0 0 0.2rem rgb(157, 212, 157);
+  }
+
+.bs-Button--success:disabled,
+  .bs-Button--success.onDisabled {
+  cursor: default;
+  pointer-events: none; /* PED */
+  opacity: 0.6;
+  }
+
+.bs-Button--info {
+  display: inline-flex; /* IF */
+  outline: none; /* ON */
+  box-sizing: border-box; /* NBS */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; /* US */
+  letter-spacing: normal;
+  line-height: 1.5;
+  word-spacing: normal;
+  text-indent: 0px;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  border-style: solid;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 0.375rem 0.75rem;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  color: inherit; /* TC */
+  font: inherit; /* FS */
+  color: #fff;
+  background-color: #17a2b8;
+  }
+
+/**
+    * Remove excess padding and border in Firefox 4+
+    */
+
+.bs-Button--info::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  }
+
+/**
+    * Button UI states
+    * 
+    * C: Color stays white when class is applied to link (a) elements
+    *    overriding the link elements styling.
+    */
+
+.bs-Button--info:hover {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(18, 130, 147);
+    color: #ffffff !important; /* C */
+  }
+
+.bs-Button--info:focus,
+  .bs-Button--info:active {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(14, 97, 110);
+    box-shadow: 0 0 0 0.2rem rgb(116, 199, 212);
+  }
+
+.bs-Button--info:disabled,
+  .bs-Button--info.onDisabled {
+  cursor: default;
+  pointer-events: none; /* PED */
+  opacity: 0.6;
+  }
+
+.bs-Button--warning {
+  display: inline-flex; /* IF */
+  outline: none; /* ON */
+  box-sizing: border-box; /* NBS */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; /* US */
+  letter-spacing: normal;
+  line-height: 1.5;
+  word-spacing: normal;
+  text-indent: 0px;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  border-style: solid;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 0.375rem 0.75rem;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  color: inherit; /* TC */
+  font: inherit; /* FS */
+      color: #212529;
+  background-color: #ffc107;
+  }
+
+/**
+    * Remove excess padding and border in Firefox 4+
+    */
+
+.bs-Button--warning::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  }
+
+/**
+    * Button UI states
+    * 
+    * C: Color stays white when class is applied to link (a) elements
+    *    overriding the link elements styling.
+    */
+
+.bs-Button--warning:hover {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(204, 154, 6);
+    color: #ffffff !important; /* C */
+  }
+
+.bs-Button--warning:focus,
+  .bs-Button--warning:active {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(153, 116, 4);
+    box-shadow: 0 0 0 0.2rem rgb(255, 218, 106);
+  }
+
+.bs-Button--warning:disabled,
+  .bs-Button--warning.onDisabled {
+  cursor: default;
+  pointer-events: none; /* PED */
+  opacity: 0.6;
+  }
+
+.bs-Button--danger {
+  display: inline-flex; /* IF */
+  outline: none; /* ON */
+  box-sizing: border-box; /* NBS */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; /* US */
+  letter-spacing: normal;
+  line-height: 1.5;
+  word-spacing: normal;
+  text-indent: 0px;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  border-style: solid;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 0.375rem 0.75rem;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  color: inherit; /* TC */
+  font: inherit; /* FS */
+  color: #fff;
+  background-color: #dc3545;
+  }
+
+/**
+    * Remove excess padding and border in Firefox 4+
+    */
+
+.bs-Button--danger::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  }
+
+/**
+    * Button UI states
+    * 
+    * C: Color stays white when class is applied to link (a) elements
+    *    overriding the link elements styling.
+    */
+
+.bs-Button--danger:hover {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(176, 42, 55);
+    color: #ffffff !important; /* C */
+  }
+
+.bs-Button--danger:focus,
+  .bs-Button--danger:active {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(132, 32, 41);
+    box-shadow: 0 0 0 0.2rem rgb(234, 134, 143);
+  }
+
+.bs-Button--danger:disabled,
+  .bs-Button--danger.onDisabled {
+  cursor: default;
+  pointer-events: none; /* PED */
+  opacity: 0.6;
+  }
+
+.bs-Button--dark {
+  display: inline-flex; /* IF */
+  outline: none; /* ON */
+  box-sizing: border-box; /* NBS */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; /* US */
+  letter-spacing: normal;
+  line-height: 1.5;
+  word-spacing: normal;
+  text-indent: 0px;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  border-style: solid;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 0.375rem 0.75rem;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  color: inherit; /* TC */
+  font: inherit; /* FS */
+  color: #fff;
+  background-color: #343a40;
+  }
+
+/**
+    * Remove excess padding and border in Firefox 4+
+    */
+
+.bs-Button--dark::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  }
+
+/**
+    * Button UI states
+    * 
+    * C: Color stays white when class is applied to link (a) elements
+    *    overriding the link elements styling.
+    */
+
+.bs-Button--dark:hover {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(42, 46, 51);
+    color: #ffffff !important; /* C */
+  }
+
+.bs-Button--dark:focus,
+  .bs-Button--dark:active {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(31, 35, 38);
+    box-shadow: 0 0 0 0.2rem rgb(133, 137, 140);
+  }
+
+.bs-Button--dark:disabled,
+  .bs-Button--dark.onDisabled {
+  cursor: default;
+  pointer-events: none; /* PED */
+  opacity: 0.6;
+  }
+
+.bs-Button--light {
+  display: inline-flex; /* IF */
+  outline: none; /* ON */
+  box-sizing: border-box; /* NBS */
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; /* US */
+  letter-spacing: normal;
+  line-height: 1.5;
+  word-spacing: normal;
+  text-indent: 0px;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  border-style: solid;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 0.375rem 0.75rem;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  color: inherit; /* TC */
+  font: inherit; /* FS */
+      color: #212529;
+  background-color: #f8f9fa;
+  }
+
+/**
+    * Remove excess padding and border in Firefox 4+
+    */
+
+.bs-Button--light::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+  }
+
+/**
+    * Button UI states
+    * 
+    * C: Color stays white when class is applied to link (a) elements
+    *    overriding the link elements styling.
+    */
+
+.bs-Button--light:hover {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(198, 199, 200);
+    color: #ffffff !important; /* C */
+  }
+
+.bs-Button--light:focus,
+  .bs-Button--light:active {
+  text-decoration: none;
+  outline: none;
+  border-style: solid;
+  background-color: rgb(149, 149, 150);
+    box-shadow: 0 0 0 0.2rem rgb(251, 251, 252);
+  }
+
+.bs-Button--light:disabled,
+  .bs-Button--light.onDisabled {
+  cursor: default;
+  pointer-events: none; /* PED */
+  opacity: 0.6;
+  }
