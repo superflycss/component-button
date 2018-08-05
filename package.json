@@ -1,6 +1,6 @@
 {
   "name": "@superflycss/component-button",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "Button component",
   "main": "index.css",
   "scripts": {
